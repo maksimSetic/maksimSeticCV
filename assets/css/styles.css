@@ -959,4 +959,12 @@ footer p strong {
     right: 10%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .contact__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 6rem !important;
+  }
+}
 /*---------------------------------------------------------------------------------------------*/
