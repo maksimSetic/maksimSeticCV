@@ -104,6 +104,11 @@ img {
   padding-bottom: 2rem;
 }
 
+.company_name {
+display: flex;
+justify-content: center;
+}
+
 /*===== LAYOUT =====*/
 
 .l-header {
@@ -374,7 +379,9 @@ h3 {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin-bottom: 2rem;
+
+ 
 }
 
 /* ===== EXPERIENCE =====*/
@@ -678,7 +685,8 @@ td {
 .date {
   color: #BFC3C7;
   display: block;
-  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
   font-weight: 600;
   position: absolute;
   top: 30px;
@@ -931,10 +939,12 @@ footer p strong {
     column-gap: 2rem;
   }
   .contact__form {
-    width: 360px;
+
   }
   .contact__container {
     justify-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
