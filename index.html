@@ -3,28 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Maksim Šetić - Software Developer Portfolio. Full-stack developer specializing in React.js, Next.js, and Node.js.">
+        <meta name="author" content="Maksim Šetić">
 
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
+        <!-- Box Icons -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         
-
-        <title>My own lil resume</title>
+        <title>Maksim Šetić | Software Developer</title>
     </head>
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
-            <nav class="nav">
-                <div>
-                    <a href="#" class="nav__logo">Maksim Šetić</a>
-                </div>
+            <nav class="nav bd-grid">
+                <a href="#home" class="nav__logo">Maksim Šetić</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills & Ed</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                     </ul>
@@ -38,43 +37,57 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
+            <section class="home bd-grid section" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hello world,<br>I'm <span class="home__title-color">Maksim</span><br> Software Developer</h1>
+                    <h1 class="home__title">
+                        Hello world,<br>
+                        I'm <span class="home__title-color">Maksim</span><br> 
+                        Software Developer
+                    </h1>
+                    <p class="home__subtitle">Full-stack developer specializing in modern web technologies</p>
                 </div>
 
                 <div class="home__img">    
-                    <img class="home_image" src="assets/img/pp.jpg" alt="">
+                    <img class="home_image" src="assets/img/pp.jpg" alt="Maksim Šetić Profile Picture">
                 </div>
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2> 
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2> 
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets\img\benefits-of-computer-programming.jpg" alt="">
+                        <img src="assets/img/benefits-of-computer-programming.jpg" alt="Programming illustration">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">A little about me...</h2>
-                        <p class="about__text"> Committed team player with an analytical approach to developing solutions. Adept at creating functional/beautiful
-                        looking applications and websites with love for problem solving and working in a growth-oriented team environment. I've been around/using/handling technology and computers since I was 7 years old. Begun education at Algebra university and completed programme focused on web application development, after which I began self teaching myself for an additional 2 years, 8 hours a day. Gained certificates in HTML5, CSS3, JS, React JS and am currently learning Node.js, Flutter and Java. Experience with building, deploying and maintaining web and native mobile applications for enterprise level companies; (iOS, Android, web apps - Confluence apps, solo freelance projects) - scalable solutions. Technology is very akin to magic in ways that it could be anything and is very abstract, it generates much wonder and by extension the curiosity to discover it's intricacies. As a driven and focused person, I'm always looking for opportunities to thrive and expand my skillset
-                        through time. </p>
-                        </div>
+                        <h2 class="about__subtitle">A little about me</h2>
+                        <p class="about__text">
+                            Committed team player with an analytical approach to developing solutions. Adept at creating functional and beautiful applications and websites with a love for problem-solving and working in a growth-oriented team environment. 
+                        </p>
+                        <p class="about__text">
+                            I've been around technology and computers since I was 7 years old. I began education at Algebra University and completed a programme focused on web application development, after which I continued self-teaching for an additional 2 years, dedicating 8 hours a day to learning.
+                        </p>
+                        <p class="about__text">
+                            I have experience building, deploying, and maintaining web and native mobile applications for enterprise-level companies, including iOS, Android, web apps, Confluence apps, and solo freelance projects - all scalable solutions. Technology is very akin to magic in ways that it could be anything and is very abstract; it generates much wonder and by extension, the curiosity to discover its intricacies.
+                        </p>
+                        <p class="about__text">
+                            As a driven and focused person, I'm always looking for opportunities to thrive and expand my skillset through time.
+                        </p>
+                    </div>
 
                 </div>
             </section>
 
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills & Education</h2>
+                <h2 class="section-title">Skills & Technologies</h2>
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Skills</h2>
-                        <p class="skills__text"> I would best describe my skills like this:</p>
+                        <h2 class="skills__subtitle">Technical Expertise</h2>
+                        <p class="skills__text">Here's an overview of my technical skills and proficiency levels:</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
@@ -183,8 +196,8 @@
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work practice</h2>
-<div class="work__container bd-grid">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="work__container bd-grid">
    
 <div class="work__img">
     <a href="https://weatherappthing.netlify.app" target="blank">
@@ -320,9 +333,21 @@
               <i class="faPra fa-briefcase"></i>
             </div>
             <div class="cbp_tmlabel wow fadeInRight animated">
-                <h3>Software developer</h3>
-              <h4 class="company_name"><i class="fa fa-flag"></i>Caelor, Zagreb</h4>
-              <div class="date"><i class="fa fa-calendar"></i>June 2012 - April 2014</div>
+              <h3>Software Developer</h3>
+              <h4 class="company_name"><i class="fa fa-flag"></i>Caelor - Atlassian Apps · Full-time</h4>
+              <div class="date"><i class="fa fa-calendar"></i>May 2020 - Nov 2022 · 2 yrs 7 mos</div>
+              <p class="experience_description">
+                Contributed to the development of scalable web applications and internal libraries using React.js, TypeScript, Node.js, and Express.js. Played a key role in building and maintaining components for projects such as MacroSuite and ContentViz, adhering to organizational standards for code quality, performance, and maintainability. Implemented global state management solutions, including Redux and Zustand, to architect predictable and modular application states. Leveraged Next.js for server-side rendering and optimized performance in production applications. Actively participated in cross-functional meetings with developers, stakeholders, and leadership to align technical decisions with business objectives.
+              </p>
+              <div class="experience_skills">
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">Next.js</span>
+                <span class="skill-tag">Redux</span>
+                <span class="skill-tag">Zustand</span>
+              </div>
             </div>
           </li>
           <li>
@@ -331,9 +356,21 @@
               <i class="faPra fa-briefcase"></i>
             </div>
             <div class="cbp_tmlabel wow fadeInRight animated">
-                <h3>Software developer</h3>
-              <h4 class="company_name"><i class="fa fa-flag"></i>Felloz, Zagreb</h4>
-              <div class="date"><i class="fa fa-calendar"></i>September 2022 - December 2022</div>
+              <h3>App Developer</h3>
+              <h4 class="company_name"><i class="fa fa-flag"></i>Felloz · Contract</h4>
+              <div class="date"><i class="fa fa-calendar"></i>Dec 2022 - Dec 2023 · 1 yr 1 mo</div>
+              <p class="experience_description">
+                Collaborated within a five-person startup team to architect and deliver a cross-platform donation application for Android and iOS. Built the mobile frontend using NativeScript with Angular, HTML/CSS, and React Native, with pre-rendering techniques to optimize performance. Developed and integrated a custom PHP backend to manage donations, user data, and API communication. Leveraged Android Studio in a macOS development environment for mobile deployment. Navigated the fast-paced dynamics of a startup, adapting to daily technical and strategic challenges. Operated within an agile team, contributing to sprint planning, code reviews, and continuous delivery practices.
+              </p>
+              <div class="experience_skills">
+                <span class="skill-tag">NativeScript</span>
+                <span class="skill-tag">Angular</span>
+                <span class="skill-tag">React Native</span>
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Android Studio</span>
+              </div>
             </div>
           </li>
           <li>
@@ -342,9 +379,21 @@
               <i class="faPra fa-briefcase"></i>
             </div>
             <div class="cbp_tmlabel wow fadeInRight animated">
-                <h3>Software developer</h3>
-                <h4 class="company_name"><i class="fa fa-flag"></i>KodeLab, Zagreb</h4>
-              <div class="date"><i class="fa fa-calendar"></i>February 2023 - Present</div>
+              <h3>Software Developer</h3>
+              <h4 class="company_name"><i class="fa fa-flag"></i>Kodelab · Full-time</h4>
+              <div class="date"><i class="fa fa-calendar"></i>Jan 2024 - May 2025 · 1 yr 5 mos</div>
+              <p class="experience_description">
+                Developed custom software solutions for diverse clients, delivering production-grade applications tailored to business needs. Utilized React.js and Next.js for seamless SSR and SPA experiences. On the backend, built and integrated APIs using Node.js to support complex user flows and data interactions. Collaborated closely with designers, PMs, and stakeholders to scope features, manage timelines, and ensure pixel-perfect delivery across platforms. Emphasized performance optimization, accessibility standards, and maintainable code structure across client projects. Contributed to both greenfield builds and the evolution of existing codebases in a fast-paced, client-focused environment.
+              </p>
+              <div class="experience_skills">
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Next.js</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">GitLab</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">API Development</span>
+                <span class="skill-tag">Performance Optimization</span>
+              </div>
             </div>
           </li>
         </ul>
@@ -354,8 +403,8 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Maksim Setic</p>
-            <p>&#169; 2021 copyright all right reserved</p>
+            <p class="footer__title">Maksim Šetić</p>
+            <p>© 2025 All rights reserved</p>
         </footer>
 
 
