@@ -244,7 +244,7 @@ button {
   display: none;
 }
 
-.show {
+.nav__menu.show {
   right: 0;
 }
 
